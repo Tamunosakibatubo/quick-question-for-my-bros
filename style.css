@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url('simple_natural_landscape_free_pixel_art_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+.container{
+    align-items: center;
+    background-color: rgb(96, 191, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+#yes{
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    transition: all 0.2s;
+}
+#No{
+    background-color: rgb(255, 0, 43);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s;
+}

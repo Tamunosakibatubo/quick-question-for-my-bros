@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('simple_natural_landscape_free_pixel_art_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
